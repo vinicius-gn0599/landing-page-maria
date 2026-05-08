@@ -3,22 +3,25 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maria Antonia Psicologia | Psicoterapia para mulheres</title>
+    <title data-text="seo.title">Maria Antonia Psicologia | Psicoterapia para mulheres</title>
     <meta
       name="description"
       content="Atendimento psicologico clinico, acolhedor e humanizado para mulheres. Terapia feminina, carreira, relacionamentos e autoconhecimento."
+      data-content="seo.description"
     >
     <meta
       name="keywords"
       content="psicologa para mulheres, psicoterapia feminina, terapia para relacionamentos, terapia para carreira, psicologa humanizada, atendimento psicologico acolhedor"
+      data-content="seo.keywords"
     >
     <meta name="theme-color" content="#FAF6EF">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="pt_BR">
-    <meta property="og:title" content="Maria Antonia Psicologia">
+    <meta property="og:title" content="Maria Antonia Psicologia" data-content="seo.ogTitle">
     <meta
       property="og:description"
       content="Psicoterapia para mulheres com acolhimento, escuta e cuidado humanizado."
+      data-content="seo.ogDescription"
     >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,11 +37,16 @@
 
     <header class="site-header">
       <div class="container header-inner">
-        <a href="#topo" class="logo" aria-label="Maria Antonia Psicologia">
+        <a
+          href="#topo"
+          class="logo"
+          aria-label="Maria Antonia Psicologia"
+          data-aria-label="brand.fullName"
+        >
           <span class="logo-mark" aria-hidden="true">MA</span>
           <span>
-            <strong class="logo-name">Maria Antonia</strong>
-            <small class="logo-subtitle">Psicologia</small>
+            <strong class="logo-name" data-text="brand.name">Maria Antonia</strong>
+            <small class="logo-subtitle" data-text="brand.subtitle">Psicologia</small>
           </span>
         </a>
 
@@ -48,18 +56,24 @@
           aria-expanded="false"
           aria-controls="main-nav"
           data-menu-toggle
+          data-text="navigation.menuLabel"
         >
           Menu
         </button>
 
         <nav id="main-nav" class="main-nav" aria-label="Navegacao principal">
-          <a href="#sobre">Sobre</a>
-          <a href="#abordagem">Abordagem</a>
-          <a href="#temas">Temas</a>
-          <a href="#contato">Contato</a>
+          <a href="#sobre" data-text="navigation.about">Sobre</a>
+          <a href="#abordagem" data-text="navigation.approach">Abordagem</a>
+          <a href="#temas" data-text="navigation.themes">Temas</a>
+          <a href="#contato" data-text="navigation.contact">Contato</a>
         </nav>
 
-        <a class="btn btn-primary header-cta" href="https://wa.me/5500000000000">
+        <a
+          class="btn btn-primary header-cta"
+          href="https://wa.me/+555596250616"
+          data-href="links.whatsapp"
+          data-text="navigation.headerCta"
+        >
           Agendar conversa
         </a>
       </div>
@@ -69,15 +83,26 @@
       <section class="hero section">
         <div class="container hero-grid">
           <div>
-            <p class="eyebrow">Psicoterapia para mulheres</p>
-            <h1>Psicoterapia para mulheres que desejam se escutar com mais acolhimento.</h1>
-            <p class="lead">
-              Um espaco clinico, seguro e humanizado para cuidar das suas relacoes, da sua
-              carreira e da forma como voce se posiciona no mundo.
+            <p class="eyebrow" data-text="hero.eyebrow">Psicoterapia para mulheres</p>
+            <h1 data-text="hero.title">
+              Psicoterapia para mulheres que desejam se escutar com mais acolhimento.
+            </h1>
+            <p class="lead" data-text="hero.description">
+              Um espaco clinico, seguro e humanizado para cuidar das suas relacoes, da sua carreira e
+              da forma como voce se posiciona no mundo.
             </p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="https://wa.me/5500000000000">Agendar conversa</a>
-              <a class="btn btn-secondary" href="#abordagem">Conhecer a abordagem</a>
+              <a
+                class="btn btn-primary"
+                href="https://wa.me/+555596250616"
+                data-href="links.whatsapp"
+                data-text="hero.primaryCta"
+              >
+                Agendar conversa
+              </a>
+              <a class="btn btn-secondary" href="#abordagem" data-text="hero.secondaryCta">
+                Conhecer a abordagem
+              </a>
             </div>
           </div>
 
@@ -85,8 +110,10 @@
             <img
               src="assets/images/hero-placeholder.svg"
               alt="Ilustracao floral representando acolhimento e crescimento emocional."
+              data-src="hero.imageSrc"
+              data-alt="hero.imageAlt"
             >
-            <p>
+            <p data-text="hero.imageNote">
               Espaco reservado para futura foto profissional ou imagem da clinica em tons quentes.
             </p>
           </aside>
@@ -96,31 +123,45 @@
       <section id="sobre" class="section">
         <div class="container two-columns">
           <article class="card">
-            <h2>Sobre Maria Antonia</h2>
-            <p>
+            <h2 data-text="about.title">Sobre Maria Antonia</h2>
+            <p data-text="about.paragraph1">
               Maria Antonia oferece atendimento psicologico acolhedor e humanizado, voltado para
-              mulheres que buscam compreender suas emocoes, seus vinculos e seus processos de
-              mudanca.
+              mulheres que buscam compreender suas emocoes, seus vinculos e seus processos de mudanca.
             </p>
-            <p>
+            <p data-text="about.paragraph2">
               Seu trabalho une escuta clinica, cuidado etico e uma presenca sensivel para que cada
               paciente possa construir caminhos mais conscientes, seguros e coerentes com sua propria
               historia.
             </p>
-            <p class="hint">
+            <p class="hint" data-text="about.hint">
               Inserir aqui informacoes reais sobre formacao, CRP, abordagem teorica, cidade e
               modalidade de atendimento.
             </p>
           </article>
 
           <aside class="card info-card">
-            <h3>Dados profissionais</h3>
+            <h3 data-text="professional.title">Dados profissionais</h3>
             <ul>
-              <li><strong>Profissional:</strong> Maria Antonia</li>
-              <li><strong>Titulo:</strong> Psicologa</li>
-              <li><strong>CRP:</strong> CRP 00/00000</li>
-              <li><strong>Cidade:</strong> Cidade/UF</li>
-              <li><strong>Modalidade:</strong> Atendimento online e/ou presencial</li>
+              <li>
+                <strong data-text="professional.labels.professional">Profissional:</strong>
+                <span data-text="professional.values.professional">Maria Antonia</span>
+              </li>
+              <li>
+                <strong data-text="professional.labels.title">Titulo:</strong>
+                <span data-text="professional.values.title">Psicologa</span>
+              </li>
+              <li>
+                <strong data-text="professional.labels.crp">CRP:</strong>
+                <span data-text="professional.values.crp">CRP 00/00000</span>
+              </li>
+              <li>
+                <strong data-text="professional.labels.city">Cidade:</strong>
+                <span data-text="professional.values.city">Cidade/UF</span>
+              </li>
+              <li>
+                <strong data-text="professional.labels.serviceMode">Modalidade:</strong>
+                <span data-text="professional.values.serviceMode">Atendimento online e/ou presencial</span>
+              </li>
             </ul>
           </aside>
         </div>
@@ -129,12 +170,12 @@
       <section id="abordagem" class="section">
         <div class="container">
           <article class="card">
-            <h2>Abordagem terapeutica</h2>
-            <p>
+            <h2 data-text="approach.title">Abordagem terapeutica</h2>
+            <p data-text="approach.paragraph1">
               A psicoterapia e um espaco de pausa, escuta e elaboracao. O processo acontece no ritmo
               de cada pessoa, respeitando sua historia, seus limites e suas possibilidades.
             </p>
-            <p>
+            <p data-text="approach.paragraph2">
               O atendimento e conduzido com sigilo, etica e uma escuta cuidadosa, favorecendo o
               autoconhecimento, o fortalecimento emocional e a construcao de relacoes mais saudaveis.
             </p>
@@ -144,43 +185,43 @@
 
       <section id="temas" class="section">
         <div class="container">
-          <h2>Temas de atendimento</h2>
+          <h2 data-text="services.title">Temas de atendimento</h2>
           <div class="grid-cards">
             <article class="card service-card">
-              <h3>Terapia feminina</h3>
-              <p>
-                Um espaco para refletir sobre identidade, autoestima, autocuidado, limites,
-                sobrecarga, culpa e os muitos papeis vividos pelas mulheres.
+              <h3 data-text="services.items.0.title">Terapia feminina</h3>
+              <p data-text="services.items.0.description">
+                Um espaco para refletir sobre identidade, autoestima, autocuidado, limites, sobrecarga,
+                culpa e os muitos papeis vividos pelas mulheres.
               </p>
             </article>
 
             <article class="card service-card">
-              <h3>Carreira</h3>
-              <p>
-                Apoio para lidar com escolhas profissionais, insegurancas, transicoes,
-                posicionamento, cobranca excessiva e equilibrio entre vida pessoal e trabalho.
+              <h3 data-text="services.items.1.title">Carreira</h3>
+              <p data-text="services.items.1.description">
+                Apoio para lidar com escolhas profissionais, insegurancas, transicoes, posicionamento,
+                cobranca excessiva e equilibrio entre vida pessoal e trabalho.
               </p>
             </article>
 
             <article class="card service-card">
-              <h3>Relacionamentos</h3>
-              <p>
+              <h3 data-text="services.items.2.title">Relacionamentos</h3>
+              <p data-text="services.items.2.description">
                 Cuidado para compreender padroes afetivos, vinculos, comunicacao, dependencia
                 emocional, limites e formas mais saudaveis de se relacionar.
               </p>
             </article>
 
             <article class="card service-card">
-              <h3>Autoestima e limites</h3>
-              <p>
+              <h3 data-text="services.items.3.title">Autoestima e limites</h3>
+              <p data-text="services.items.3.description">
                 Construir relacoes mais equilibradas com voce mesma, fortalecendo sua autonomia e sua
                 capacidade de escolha.
               </p>
             </article>
 
             <article class="card service-card">
-              <h3>Transicoes de vida</h3>
-              <p>
+              <h3 data-text="services.items.4.title">Transicoes de vida</h3>
+              <p data-text="services.items.4.description">
                 Apoio em mudancas importantes, como novos ciclos pessoais e profissionais, com escuta
                 acolhedora e estrategia emocional.
               </p>
@@ -191,22 +232,24 @@
 
       <section class="section">
         <div class="container">
-          <h2>Como funciona o atendimento</h2>
+          <h2 data-text="process.title">Como funciona o atendimento</h2>
           <div class="timeline">
             <article class="card">
-              <h3>1. Primeiro contato</h3>
-              <p>Voce entra em contato pelo WhatsApp para tirar duvidas e alinhar disponibilidade.</p>
+              <h3 data-text="process.items.0.title">1. Primeiro contato</h3>
+              <p data-text="process.items.0.description">
+                Voce entra em contato pelo WhatsApp para tirar duvidas e alinhar disponibilidade.
+              </p>
             </article>
             <article class="card">
-              <h3>2. Sessao inicial</h3>
-              <p>
+              <h3 data-text="process.items.1.title">2. Sessao inicial</h3>
+              <p data-text="process.items.1.description">
                 Realizamos a primeira sessao para compreender sua demanda, historia e objetivos do
                 processo.
               </p>
             </article>
             <article class="card">
-              <h3>3. Continuidade</h3>
-              <p>
+              <h3 data-text="process.items.2.title">3. Continuidade</h3>
+              <p data-text="process.items.2.description">
                 Definimos frequencia e modalidade (online e/ou presencial) de forma personalizada e
                 etica.
               </p>
@@ -218,24 +261,39 @@
       <section id="galeria" class="section">
         <div class="container">
           <div class="gallery-head">
-            <h2>Espaco para imagens do site</h2>
-            <p>
+            <h2 data-text="gallery.title">Espaco para imagens do site</h2>
+            <p data-text="gallery.description">
               Esta galeria usa imagens arbitrarias por enquanto. Substitua pelos ensaios, consultorio
               ou imagens autorais da profissional quando quiser publicar.
             </p>
           </div>
           <div class="gallery-grid">
             <figure class="card">
-              <img src="assets/images/galeria-1.svg" alt="Placeholder artistico para sessao de acolhimento.">
-              <figcaption>Placeholder: acolhimento</figcaption>
+              <img
+                src="assets/images/galeria-1.svg"
+                alt="Placeholder artistico para sessao de acolhimento."
+                data-src="gallery.items.0.src"
+                data-alt="gallery.items.0.alt"
+              >
+              <figcaption data-text="gallery.items.0.caption">Placeholder: acolhimento</figcaption>
             </figure>
             <figure class="card">
-              <img src="assets/images/galeria-2.svg" alt="Placeholder artistico para tema de carreira.">
-              <figcaption>Placeholder: carreira</figcaption>
+              <img
+                src="assets/images/galeria-2.svg"
+                alt="Placeholder artistico para tema de carreira."
+                data-src="gallery.items.1.src"
+                data-alt="gallery.items.1.alt"
+              >
+              <figcaption data-text="gallery.items.1.caption">Placeholder: carreira</figcaption>
             </figure>
             <figure class="card">
-              <img src="assets/images/galeria-3.svg" alt="Placeholder artistico para relacionamentos.">
-              <figcaption>Placeholder: relacionamentos</figcaption>
+              <img
+                src="assets/images/galeria-3.svg"
+                alt="Placeholder artistico para relacionamentos."
+                data-src="gallery.items.2.src"
+                data-alt="gallery.items.2.alt"
+              >
+              <figcaption data-text="gallery.items.2.caption">Placeholder: relacionamentos</figcaption>
             </figure>
           </div>
         </div>
@@ -243,8 +301,18 @@
 
       <section class="section section-cta">
         <div class="container card cta-card">
-          <h2>Cuidar de si pode ser o primeiro passo para florescer com mais consciencia, seguranca e leveza.</h2>
-          <a class="btn btn-primary" href="https://wa.me/5500000000000">Agendar atendimento</a>
+          <h2 data-text="finalCta.title">
+            Cuidar de si pode ser o primeiro passo para florescer com mais consciencia, seguranca e
+            leveza.
+          </h2>
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/+555596250616"
+            data-href="links.whatsapp"
+            data-text="finalCta.button"
+          >
+            Agendar atendimento
+          </a>
         </div>
       </section>
     </main>
@@ -252,33 +320,64 @@
     <footer id="contato" class="site-footer">
       <div class="container footer-grid">
         <div>
-          <h2>Contato</h2>
+          <h2 data-text="contact.title">Contato</h2>
           <ul>
-            <li><strong>WhatsApp:</strong> <a href="https://wa.me/5500000000000">+55 (00) 00000-0000</a></li>
             <li>
-              <strong>Instagram:</strong>
-              <a href="https://instagram.com/mariaantonia.psicologia">@mariaantonia.psicologia</a>
+              <strong data-text="contact.labels.whatsapp">WhatsApp:</strong>
+              <a
+                href="https://wa.me/+555596250616"
+                data-href="links.whatsapp"
+                data-text="contact.values.whatsapp"
+              >
+                +55 (55) 96250-0616
+              </a>
             </li>
-            <li><strong>E-mail:</strong> <a href="mailto:contato@mariaantonia.com.br">contato@mariaantonia.com.br</a></li>
-            <li><strong>CRP:</strong> CRP 00/00000</li>
-            <li><strong>Cidade:</strong> Cidade/UF</li>
+            <li>
+              <strong data-text="contact.labels.instagram">Instagram:</strong>
+              <a
+                href="https://instagram.com/mariaantonia.psicologia"
+                data-href="links.instagram"
+                data-text="contact.values.instagram"
+              >
+                @mariaantonia.psicologia
+              </a>
+            </li>
+            <li>
+              <strong data-text="contact.labels.email">E-mail:</strong>
+              <a
+                href="mailto:contato@mariaantonia.com.br"
+                data-href="links.email"
+                data-text="contact.values.email"
+              >
+                contato@mariaantonia.com.br
+              </a>
+            </li>
+            <li>
+              <strong data-text="contact.labels.crp">CRP:</strong>
+              <span data-text="contact.values.crp">CRP 00/00000</span>
+            </li>
+            <li>
+              <strong data-text="contact.labels.city">Cidade:</strong>
+              <span data-text="contact.values.city">Cidade/UF</span>
+            </li>
           </ul>
         </div>
 
         <div class="ethics">
-          <h3>Compromisso etico</h3>
-          <p>
+          <h3 data-text="ethics.title">Compromisso etico</h3>
+          <p data-text="ethics.paragraph1">
             Este site possui carater informativo e institucional. Nao faz promessas de cura,
             resultados garantidos ou exposicao de casos clinicos.
           </p>
-          <p>
+          <p data-text="ethics.paragraph2">
             Antes da publicacao final, revise o conteudo com a profissional responsavel e valide os
             dados no conselho regional.
           </p>
         </div>
       </div>
       <p class="copyright">
-        (c) <span id="current-year"></span> Maria Antonia Psicologia. Todos os direitos reservados.
+        (c) <span id="current-year"></span>
+        <span data-text="footer.copyright">Maria Antonia Psicologia. Todos os direitos reservados.</span>
       </p>
     </footer>
 

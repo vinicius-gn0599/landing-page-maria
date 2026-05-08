@@ -1,0 +1,157 @@
+{
+  "seo": {
+    "title": "Maria Antonia Psicologia | Psicoterapia para mulheres",
+    "description": "Atendimento psicologico clinico, acolhedor e humanizado para mulheres. Terapia feminina, carreira, relacionamentos e autoconhecimento.",
+    "keywords": "psicologa para mulheres, psicoterapia feminina, terapia para relacionamentos, terapia para carreira, psicologa humanizada, atendimento psicologico acolhedor",
+    "ogTitle": "Maria Antonia Psicologia",
+    "ogDescription": "Psicoterapia para mulheres com acolhimento, escuta e cuidado humanizado."
+  },
+  "brand": {
+    "fullName": "Maria Antonia Psicologia",
+    "name": "Maria Antonia",
+    "subtitle": "Psicologia"
+  },
+  "navigation": {
+    "menuLabel": "Menu",
+    "about": "Sobre",
+    "approach": "Abordagem",
+    "themes": "Temas",
+    "contact": "Contato",
+    "headerCta": "Agendar conversa"
+  },
+  "hero": {
+    "eyebrow": "Psicoterapia para mulheres",
+    "title": "Psicoterapia para mulheres que desejam se escutar com mais acolhimento.",
+    "description": "Um espaco clinico, seguro e humanizado para cuidar das suas relacoes, da sua carreira e da forma como voce se posiciona no mundo.",
+    "primaryCta": "Agendar conversa",
+    "secondaryCta": "Conhecer a abordagem",
+    "imageSrc": "assets/images/hero-placeholder.svg",
+    "imageAlt": "Ilustracao floral representando acolhimento e crescimento emocional.",
+    "imageNote": "Espaco reservado para futura foto profissional ou imagem da clinica em tons quentes."
+  },
+  "about": {
+    "title": "Sobre Maria Antonia",
+    "paragraph1": "Maria Antonia oferece atendimento psicologico acolhedor e humanizado, voltado para mulheres que buscam compreender suas emocoes, seus vinculos e seus processos de mudanca.",
+    "paragraph2": "Seu trabalho une escuta clinica, cuidado etico e uma presenca sensivel para que cada paciente possa construir caminhos mais conscientes, seguros e coerentes com sua propria historia.",
+    "hint": "Inserir aqui informacoes reais sobre formacao, CRP, abordagem teorica, cidade e modalidade de atendimento."
+  },
+  "professional": {
+    "title": "Dados profissionais",
+    "labels": {
+      "professional": "Profissional:",
+      "title": "Titulo:",
+      "crp": "CRP:",
+      "city": "Cidade:",
+      "serviceMode": "Modalidade:"
+    },
+    "values": {
+      "professional": "Maria Antonia",
+      "title": "Psicologa",
+      "crp": "CRP 00/00000",
+      "city": "Cidade/UF",
+      "serviceMode": "Atendimento online e/ou presencial"
+    }
+  },
+  "approach": {
+    "title": "Abordagem terapeutica",
+    "paragraph1": "A psicoterapia e um espaco de pausa, escuta e elaboracao. O processo acontece no ritmo de cada pessoa, respeitando sua historia, seus limites e suas possibilidades.",
+    "paragraph2": "O atendimento e conduzido com sigilo, etica e uma escuta cuidadosa, favorecendo o autoconhecimento, o fortalecimento emocional e a construcao de relacoes mais saudaveis."
+  },
+  "services": {
+    "title": "Temas de atendimento",
+    "items": [
+      {
+        "title": "Terapia feminina",
+        "description": "Um espaco para refletir sobre identidade, autoestima, autocuidado, limites, sobrecarga, culpa e os muitos papeis vividos pelas mulheres."
+      },
+      {
+        "title": "Carreira",
+        "description": "Apoio para lidar com escolhas profissionais, insegurancas, transicoes, posicionamento, cobranca excessiva e equilibrio entre vida pessoal e trabalho."
+      },
+      {
+        "title": "Relacionamentos",
+        "description": "Cuidado para compreender padroes afetivos, vinculos, comunicacao, dependencia emocional, limites e formas mais saudaveis de se relacionar."
+      },
+      {
+        "title": "Autoestima e limites",
+        "description": "Construir relacoes mais equilibradas com voce mesma, fortalecendo sua autonomia e sua capacidade de escolha."
+      },
+      {
+        "title": "Transicoes de vida",
+        "description": "Apoio em mudancas importantes, como novos ciclos pessoais e profissionais, com escuta acolhedora e estrategia emocional."
+      }
+    ]
+  },
+  "process": {
+    "title": "Como funciona o atendimento",
+    "items": [
+      {
+        "title": "1. Primeiro contato",
+        "description": "Voce entra em contato pelo WhatsApp para tirar duvidas e alinhar disponibilidade."
+      },
+      {
+        "title": "2. Sessao inicial",
+        "description": "Realizamos a primeira sessao para compreender sua demanda, historia e objetivos do processo."
+      },
+      {
+        "title": "3. Continuidade",
+        "description": "Definimos frequencia e modalidade (online e/ou presencial) de forma personalizada e etica."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Espaco para imagens do site",
+    "description": "Esta galeria usa imagens arbitrarias por enquanto. Substitua pelos ensaios, consultorio ou imagens autorais da profissional quando quiser publicar.",
+    "items": [
+      {
+        "src": "assets/images/galeria-1.svg",
+        "alt": "Placeholder artistico para sessao de acolhimento.",
+        "caption": "Placeholder: acolhimento"
+      },
+      {
+        "src": "assets/images/galeria-2.svg",
+        "alt": "Placeholder artistico para tema de carreira.",
+        "caption": "Placeholder: carreira"
+      },
+      {
+        "src": "assets/images/galeria-3.svg",
+        "alt": "Placeholder artistico para relacionamentos.",
+        "caption": "Placeholder: relacionamentos"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Cuidar de si pode ser o primeiro passo para florescer com mais consciencia, seguranca e leveza.",
+    "button": "Agendar atendimento"
+  },
+  "contact": {
+    "title": "Contato",
+    "labels": {
+      "whatsapp": "WhatsApp:",
+      "instagram": "Instagram:",
+      "email": "E-mail:",
+      "crp": "CRP:",
+      "city": "Cidade:"
+    },
+    "values": {
+      "whatsapp": "+55 (55) 96250-0616",
+      "instagram": "@mariaantonia.psicologia",
+      "email": "contato@mariaantonia.com.br",
+      "crp": "CRP 00/00000",
+      "city": "Cidade/UF"
+    }
+  },
+  "ethics": {
+    "title": "Compromisso etico",
+    "paragraph1": "Este site possui carater informativo e institucional. Nao faz promessas de cura, resultados garantidos ou exposicao de casos clinicos.",
+    "paragraph2": "Antes da publicacao final, revise o conteudo com a profissional responsavel e valide os dados no conselho regional."
+  },
+  "footer": {
+    "copyright": "Maria Antonia Psicologia. Todos os direitos reservados."
+  },
+  "links": {
+    "whatsapp": "https://wa.me/+555596250616",
+    "instagram": "https://instagram.com/mariaantonia.psicologia",
+    "email": "mailto:contato@mariaantonia.com.br"
+  }
+}

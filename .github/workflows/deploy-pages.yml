@@ -31,6 +31,7 @@ jobs:
           mkdir -p dist
           cp index.html dist/index.html
           cp -r assets dist/assets
+          cp -r content dist/content
 
       - name: Upload static artifact
         uses: actions/upload-pages-artifact@v3

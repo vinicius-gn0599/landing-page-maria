@@ -6,9 +6,18 @@ Landing page institucional baseada no briefing `maria-antonia-psicologia-briefin
 
 - `index.html`: pagina unica com as secoes institucionais.
 - `assets/css/styles.css`: identidade visual, responsividade e componentes.
-- `assets/js/main.js`: menu mobile e ano dinamico do rodape.
+- `assets/js/main.js`: menu mobile, ano dinamico e carregamento de conteudo via JSON.
 - `assets/images/`: placeholders de imagem para hero e galeria.
+- `content/site-content.json`: textos, links e metadados editaveis do site.
 - `.github/workflows/`: esteira CI/CD com GitHub Actions.
+
+## Como editar os textos (forma recomendada)
+
+1. Edite apenas o arquivo `content/site-content.json`.
+2. Mantenha as chaves existentes para nao quebrar os bindings do HTML.
+3. Para alterar links (WhatsApp, Instagram, e-mail), use a secao `links`.
+4. O `index.html` tem fallback, mas o conteudo final da pagina vem do JSON carregado em `assets/js/main.js`.
+5. Para visualizar alteracoes do JSON localmente, rode um servidor HTTP simples (abrir direto com `file://` pode bloquear o `fetch` em alguns navegadores).
 
 ## Como rodar localmente
 
@@ -30,7 +39,13 @@ npm install
 npm run lint
 ```
 
-4. Abra `index.html` no navegador.
+4. Rode um servidor local:
+
+```bash
+python3 -m http.server 8080
+```
+
+5. Abra `http://localhost:8080`.
 
 ## CI/CD com GitHub Actions
 
