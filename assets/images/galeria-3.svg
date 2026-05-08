@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder relacionamentos</title>
+  <desc id="desc">Composicao abstrata para representar relacoes e vinculos afetivos.</desc>
+  <rect width="600" height="420" fill="#FFFDF8" />
+  <circle cx="215" cy="206" r="136" fill="#E8D5C3" />
+  <circle cx="396" cy="214" r="125" fill="#D39156" opacity="0.6" />
+  <path
+    d="M305 166 C288 131 243 127 220 154 C196 180 225 219 305 278 C385 219 414 180 390 154 C367 127 322 131 305 166 Z"
+    fill="none"
+    stroke="#C96132"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path d="M185 314 C255 336 345 336 414 314" fill="none" stroke="#5A2F1D" stroke-width="8" stroke-linecap="round" />
+</svg>

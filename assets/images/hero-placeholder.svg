@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder hero</title>
+  <desc id="desc">Arte abstrata com formas organicas em tons terrosos para o bloco principal do site.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF8" />
+      <stop offset="100%" stop-color="#E8D5C3" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="760" rx="36" fill="url(#bg)" />
+  <circle cx="180" cy="150" r="110" fill="#C96132" opacity="0.20" />
+  <circle cx="760" cy="560" r="140" fill="#D39156" opacity="0.22" />
+  <path
+    d="M170 580 C210 410 340 250 520 155"
+    fill="none"
+    stroke="#C96132"
+    stroke-width="12"
+    stroke-linecap="round"
+  />
+  <path
+    d="M540 170 C610 120 700 120 770 185 C710 240 620 250 540 170 Z"
+    fill="none"
+    stroke="#5A2F1D"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M415 328 C345 292 302 225 306 145 C376 170 426 242 415 328 Z"
+    fill="none"
+    stroke="#D39156"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M445 430 C548 403 636 445 683 538 C582 565 495 523 445 430 Z"
+    fill="none"
+    stroke="#5A2F1D"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

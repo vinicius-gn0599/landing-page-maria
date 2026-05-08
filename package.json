@@ -1,0 +1,16 @@
+{
+  "name": "site-maria-antonia-psicologia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional estatico para Maria Antonia Psicologia.",
+  "scripts": {
+    "lint": "npm run lint:html && npm run lint:css",
+    "lint:html": "htmlhint \"**/*.html\"",
+    "lint:css": "stylelint \"assets/css/**/*.css\""
+  },
+  "devDependencies": {
+    "htmlhint": "^1.6.3",
+    "stylelint": "*",
+    "stylelint-config-standard": "*"
+  }
+}

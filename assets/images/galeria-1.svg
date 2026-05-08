@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder acolhimento</title>
+  <desc id="desc">Composicao abstrata para representar acolhimento emocional.</desc>
+  <rect width="600" height="420" fill="#FFFDF8" />
+  <circle cx="160" cy="160" r="120" fill="#E8D5C3" />
+  <circle cx="470" cy="270" r="110" fill="#D39156" opacity="0.5" />
+  <path d="M110 290 C185 220 256 216 332 288" fill="none" stroke="#5A2F1D" stroke-width="10" stroke-linecap="round" />
+  <path d="M264 156 C249 120 201 117 180 147 C158 178 196 222 264 262 C332 222 370 178 348 147 C327 117 279 120 264 156 Z" fill="none" stroke="#C96132" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
