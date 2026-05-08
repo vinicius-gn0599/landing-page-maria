@@ -19,7 +19,7 @@ Use este arquivo como contexto inicial no Chat do VS Code/Copilot/ChatGPT para c
 
 ### Direção conceitual
 
-A marca deve transmitir a sensação de um espaço seguro para mulheres que buscam autoconhecimento, equilíbrio emocional, amadurecimento nas relações e fortalecimento pessoal/profissional. A comunicação visual deve ser sofisticada, mas acessível; feminina, mas não infantil; clínica, mas sem parecer fria.
+A marca deve transmitir a sensação de um espaço seguro que buscam autoconhecimento, equilíbrio emocional, amadurecimento nas relações e fortalecimento pessoal/profissional. A comunicação visual deve ser sofisticada, mas acessível; feminina, mas não infantil; clínica, mas sem parecer fria.
 
 ### Palavras-chave visuais
 
@@ -194,7 +194,7 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: "Maria Antônia Psicologia",
-  description: "Psicoterapia para mulheres com acolhimento, escuta e cuidado humanizado.",
+  description: "Psicoterapia com acolhimento, escuta e cuidado humanizado.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -343,7 +343,7 @@ Para começar, criar uma landing page institucional de página única.
 
 2. **Hero**
    - Título emocional e claro
-   - Texto curto sobre psicoterapia para mulheres
+   - Texto curto sobre psicoterapia
    - CTA principal para WhatsApp/agendamento
    - CTA secundário para conhecer a abordagem
    - Elemento visual floral orgânico
@@ -394,7 +394,7 @@ Use os textos abaixo como ponto de partida. Eles podem ser ajustados pela profis
 ### Hero
 
 **Título:**  
-Psicoterapia para mulheres que desejam se escutar com mais acolhimento.
+Psicoterapia que desejam se escutar com mais acolhimento.
 
 **Subtítulo:**  
 Um espaço clínico, seguro e humanizado para cuidar das suas relações, da sua carreira e da forma como você se posiciona no mundo.
@@ -407,7 +407,7 @@ Conhecer a abordagem
 
 ### Sobre
 
-Maria Antônia oferece um atendimento psicológico acolhedor e humanizado, voltado para mulheres que buscam compreender suas emoções, seus vínculos e seus processos de mudança.
+Maria Antônia oferece um atendimento psicológico acolhedor e humanizado, voltado que buscam compreender suas emoções, seus vínculos e seus processos de mudança.
 
 Seu trabalho une escuta clínica, cuidado ético e uma presença sensível para que cada paciente possa construir caminhos mais conscientes, seguros e coerentes com sua própria história.
 
@@ -522,18 +522,18 @@ Usar formas orgânicas grandes com baixa opacidade:
 ### Title
 
 ```txt
-Maria Antônia Psicologia | Psicoterapia para mulheres
+Maria Antônia Psicologia | Psicoterapia
 ```
 
 ### Description
 
 ```txt
-Atendimento psicológico clínico, acolhedor e humanizado para mulheres. Terapia feminina, carreira, relacionamentos e autoconhecimento.
+Atendimento psicológico clínico, acolhedor e humanizado. Terapia feminina, carreira, relacionamentos e autoconhecimento.
 ```
 
 ### Keywords internas
 
-- psicóloga para mulheres
+- psicóloga
 - psicoterapia feminina
 - terapia para relacionamentos
 - terapia para carreira
@@ -544,11 +544,11 @@ Atendimento psicológico clínico, acolhedor e humanizado para mulheres. Terapia
 
 ```ts
 export const metadata = {
-  title: "Maria Antônia Psicologia | Psicoterapia para mulheres",
-  description: "Atendimento psicológico clínico, acolhedor e humanizado para mulheres.",
+  title: "Maria Antônia Psicologia | Psicoterapia",
+  description: "Atendimento psicológico clínico, acolhedor e humanizado.",
   openGraph: {
     title: "Maria Antônia Psicologia",
-    description: "Psicoterapia para mulheres com acolhimento, escuta e cuidado humanizado.",
+    description: "Psicoterapia com acolhimento, escuta e cuidado humanizado.",
     type: "website",
     locale: "pt_BR",
   },
@@ -874,7 +874,7 @@ export const siteConfig = {
   email: "contato@mariaantonia.com.br",
   city: "Cidade/UF",
   serviceMode: "Atendimento online e/ou presencial",
-  heroTitle: "Psicoterapia para mulheres que desejam se escutar com mais acolhimento.",
+  heroTitle: "Psicoterapia que desejam se escutar com mais acolhimento.",
   heroSubtitle:
     "Um espaço clínico, seguro e humanizado para cuidar das suas relações, da sua carreira e da forma como você se posiciona no mundo.",
 };
@@ -884,4 +884,4 @@ export const siteConfig = {
 
 ## 18. Direção de layout resumida para IA/codegen
 
-Crie uma landing page elegante, com estética editorial e orgânica. O visual deve combinar tipografia serifada refinada, espaços generosos, cards arredondados, paleta terrosa quente e ícones botânicos lineares. A interface precisa transmitir acolhimento, segurança e leveza para mulheres em busca de psicoterapia. Evite excesso de elementos, cores frias e ilustrações clínicas genéricas. Priorize uma experiência calma, clara, responsiva e profissional.
+Crie uma landing page elegante, com estética editorial e orgânica. O visual deve combinar tipografia serifada refinada, espaços generosos, cards arredondados, paleta terrosa quente e ícones botânicos lineares. A interface precisa transmitir acolhimento, segurança e leveza em busca de psicoterapia. Evite excesso de elementos, cores frias e ilustrações clínicas genéricas. Priorize uma experiência calma, clara, responsiva e profissional.
