@@ -12,19 +12,25 @@ Landing page institucional baseada no briefing `maria-antonia-psicologia-briefin
 
 ## Como rodar localmente
 
-1. Instale dependencias:
+1. Ative o Node 22:
+
+```bash
+nvm use
+```
+
+2. Instale dependencias:
 
 ```bash
 npm install
 ```
 
-2. Rode os linters:
+3. Rode os linters:
 
 ```bash
 npm run lint
 ```
 
-3. Abra `index.html` no navegador.
+4. Abra `index.html` no navegador.
 
 ## CI/CD com GitHub Actions
 
