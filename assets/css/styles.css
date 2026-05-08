@@ -4,6 +4,7 @@
   --ma-caramelo: #d39156;
   --ma-bege-quente: #e8d5c3;
   --ma-off-white: #faf6ef;
+  --ma-off-white-rgb: 250 246 239;
   --ma-branco-quente: #fffdf8;
   --ma-text-secondary: #7a4a34;
   --ma-border: rgb(90 47 29 / 16%);
@@ -244,6 +245,79 @@ p {
   gap: 0.75rem;
 }
 
+.hero-card {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-media {
+  --hero-media-width: min(420px, 100%);
+  --hero-media-height: clamp(320px, 52vw, 540px);
+  --hero-image-fit: cover;
+  --hero-image-position: center;
+  --hero-edge-fade-size: 20%;
+  --hero-edge-fade-opacity: 0.36;
+
+  position: relative;
+  width: var(--hero-media-width);
+  height: var(--hero-media-height);
+  border-radius: var(--ma-radius-lg);
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--ma-off-white);
+}
+
+.hero-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  border-radius: inherit;
+  background:
+    linear-gradient(
+      to right,
+      rgb(var(--ma-off-white-rgb) / var(--hero-edge-fade-opacity)) 0%,
+      rgb(var(--ma-off-white-rgb) / 0) var(--hero-edge-fade-size)
+    ),
+    linear-gradient(
+      to left,
+      rgb(var(--ma-off-white-rgb) / var(--hero-edge-fade-opacity)) 0%,
+      rgb(var(--ma-off-white-rgb) / 0) var(--hero-edge-fade-size)
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(var(--ma-off-white-rgb) / var(--hero-edge-fade-opacity)) 0%,
+      rgb(var(--ma-off-white-rgb) / 0) var(--hero-edge-fade-size)
+    ),
+    linear-gradient(
+      to top,
+      rgb(var(--ma-off-white-rgb) / var(--hero-edge-fade-opacity)) 0%,
+      rgb(var(--ma-off-white-rgb) / 0) var(--hero-edge-fade-size)
+    );
+}
+
+.hero-image {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: var(--hero-image-fit);
+  object-position: var(--hero-image-position);
+  border-radius: inherit;
+}
+
+.hero-media-size {
+  /*
+    Redimensione aqui do jeito que quiser:
+    --hero-media-width: 360px;
+    --hero-media-height: 460px;
+    --hero-image-position: center top;
+    --hero-edge-fade-size: 20%;
+    --hero-edge-fade-opacity: 0.98;
+  */
+}
+
 .hero-card p {
   margin-bottom: 0;
   margin-top: 0.9rem;
@@ -309,12 +383,24 @@ p {
   gap: 1rem;
 }
 
+.gallery-card {
+  display: grid;
+  gap: 0.65rem;
+}
+
 figure {
   margin: 0;
 }
 
 figcaption {
-  margin-top: 0.7rem;
+  margin-top: 0.5rem;
+  font-weight: 700;
+  color: var(--ma-marrom-cacau);
+  font-size: 1rem;
+}
+
+.gallery-note {
+  margin: 0;
   color: var(--ma-text-secondary);
   font-size: 0.9rem;
 }

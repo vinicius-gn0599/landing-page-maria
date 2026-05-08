@@ -1,14 +1,14 @@
 {
   "seo": {
-    "title": "Maria Antonia Psicologia | Psicoterapia para mulheres",
-    "description": "Atendimento psicologico clinico, acolhedor e humanizado para mulheres. Terapia feminina, carreira, relacionamentos e autoconhecimento.",
-    "keywords": "psicologa para mulheres, psicoterapia feminina, terapia para relacionamentos, terapia para carreira, psicologa humanizada, atendimento psicologico acolhedor",
-    "ogTitle": "Maria Antonia Psicologia",
+    "title": "Maria Antônia Psicologia | Psicoterapia para mulheres",
+    "description": "Atendimento psicológico clínico, acolhedor e humanizado para mulheres. Terapia feminina, carreira, relacionamentos e autoconhecimento.",
+    "keywords": "psicóloga para mulheres, psicoterapia feminina, terapia para relacionamentos, terapia para carreira, psicóloga humanizada, atendimento psicológico acolhedor",
+    "ogTitle": "Maria Antônia Psicologia",
     "ogDescription": "Psicoterapia para mulheres com acolhimento, escuta e cuidado humanizado."
   },
   "brand": {
-    "fullName": "Maria Antonia Psicologia",
-    "name": "Maria Antonia",
+    "fullName": "Maria Antônia Psicologia",
+    "name": "Maria Antônia",
     "subtitle": "Psicologia"
   },
   "navigation": {
@@ -21,64 +21,58 @@
   },
   "hero": {
     "eyebrow": "Psicoterapia para mulheres",
-    "title": "Psicoterapia para mulheres que desejam se escutar com mais acolhimento.",
-    "description": "Um espaco clinico, seguro e humanizado para cuidar das suas relacoes, da sua carreira e da forma como voce se posiciona no mundo.",
+    "title": "Psicoterapia online para adolescentes e adultos.",
+    "description": "Um espaço clínico, seguro e humanizado para cuidar das suas relações, da sua carreira e da forma como você se relaciona consigo mesma e com os outros.",
     "primaryCta": "Agendar conversa",
     "secondaryCta": "Conhecer a abordagem",
-    "imageSrc": "assets/images/hero-placeholder.svg",
-    "imageAlt": "Ilustracao floral representando acolhimento e crescimento emocional.",
-    "imageNote": "Espaco reservado para futura foto profissional ou imagem da clinica em tons quentes."
+    "imageSrc": "assets/images/maria.jpeg",
+    "imageAlt": "Ilustração floral representando acolhimento e crescimento emocional."
   },
   "about": {
-    "title": "Sobre Maria Antonia",
-    "paragraph1": "Maria Antonia oferece atendimento psicologico acolhedor e humanizado, voltado para mulheres que buscam compreender suas emocoes, seus vinculos e seus processos de mudanca.",
-    "paragraph2": "Seu trabalho une escuta clinica, cuidado etico e uma presenca sensivel para que cada paciente possa construir caminhos mais conscientes, seguros e coerentes com sua propria historia.",
-    "hint": "Inserir aqui informacoes reais sobre formacao, CRP, abordagem teorica, cidade e modalidade de atendimento."
+    "title": "Sobre Maria Antônia",
+    "paragraph1": "Psicóloga com atuação baseada na Terapia Cognitivo-Comportamental (TCC), oferecendo um espaço de escuta acolhedora e intervenções focadas no desenvolvimento emocional, autonomia e qualidade de vida.",
+    "paragraph2": "Seu trabalho une escuta clínica, cuidado ético e uma presença sensível para que cada paciente possa construir caminhos mais conscientes, seguros e coerentes com sua própria história."
   },
   "professional": {
     "title": "Dados profissionais",
     "labels": {
       "professional": "Profissional:",
-      "title": "Titulo:",
       "crp": "CRP:",
-      "city": "Cidade:",
       "serviceMode": "Modalidade:"
     },
     "values": {
-      "professional": "Maria Antonia",
-      "title": "Psicologa",
-      "crp": "CRP 00/00000",
-      "city": "Cidade/UF",
-      "serviceMode": "Atendimento online e/ou presencial"
+      "professional": "Maria Antônia Figueiredo",
+      "crp": "07/38492",
+      "serviceMode": "Atendimento online"
     }
   },
   "approach": {
-    "title": "Abordagem terapeutica",
-    "paragraph1": "A psicoterapia e um espaco de pausa, escuta e elaboracao. O processo acontece no ritmo de cada pessoa, respeitando sua historia, seus limites e suas possibilidades.",
-    "paragraph2": "O atendimento e conduzido com sigilo, etica e uma escuta cuidadosa, favorecendo o autoconhecimento, o fortalecimento emocional e a construcao de relacoes mais saudaveis."
+    "title": "Abordagem terapêutica",
+    "paragraph1": "A Terapia Cognitivo-Comportamental é uma abordagem da psicologia que ajuda a entender como pensamentos, emoções e comportamentos estão conectados. Ela busca identificar padrões que podem estar causando sofrimento e, a partir disso, desenvolver formas mais saudáveis de pensar, sentir e agir no dia a dia. É um processo prático e colaborativo, focado em promover autoconhecimento, autonomia emocional e mudanças que melhorem a qualidade de vida.",
+    "paragraph2": "O atendimento é conduzido com sigilo, ética e uma escuta cuidadosa, favorecendo o autoconhecimento, o fortalecimento emocional e a construção de relações mais saudáveis."
   },
   "services": {
     "title": "Temas de atendimento",
     "items": [
       {
         "title": "Terapia feminina",
-        "description": "Um espaco para refletir sobre identidade, autoestima, autocuidado, limites, sobrecarga, culpa e os muitos papeis vividos pelas mulheres."
+        "description": "Um espaço para refletir sobre identidade, autoestima, autocuidado, limites, sobrecarga, culpa e os muitos papéis vividos pelas mulheres."
       },
       {
         "title": "Carreira",
-        "description": "Apoio para lidar com escolhas profissionais, insegurancas, transicoes, posicionamento, cobranca excessiva e equilibrio entre vida pessoal e trabalho."
+        "description": "Apoio para lidar com escolhas profissionais, inseguranças, transições, posicionamento, cobrança excessiva e equilíbrio entre vida pessoal e trabalho."
       },
       {
         "title": "Relacionamentos",
-        "description": "Cuidado para compreender padroes afetivos, vinculos, comunicacao, dependencia emocional, limites e formas mais saudaveis de se relacionar."
+        "description": "Cuidado para compreender padrões afetivos, vínculos, comunicação, dependência emocional, limites e formas mais saudáveis de se relacionar."
       },
       {
         "title": "Autoestima e limites",
-        "description": "Construir relacoes mais equilibradas com voce mesma, fortalecendo sua autonomia e sua capacidade de escolha."
+        "description": "Construir relações mais equilibradas com você mesma, fortalecendo sua autonomia e sua capacidade de escolha."
       },
       {
-        "title": "Transicoes de vida",
-        "description": "Apoio em mudancas importantes, como novos ciclos pessoais e profissionais, com escuta acolhedora e estrategia emocional."
+        "title": "Transições de vida",
+        "description": "Apoio em mudanças importantes, como novos ciclos pessoais e profissionais, com escuta acolhedora e estratégia emocional."
       }
     ]
   },
@@ -87,41 +81,47 @@
     "items": [
       {
         "title": "1. Primeiro contato",
-        "description": "Voce entra em contato pelo WhatsApp para tirar duvidas e alinhar disponibilidade."
+        "description": "Você entra em contato pelo WhatsApp e eu te explico como funciona o processo terapêutico, valores, disponibilidade de horários e como podemos dar início."
       },
       {
-        "title": "2. Sessao inicial",
-        "description": "Realizamos a primeira sessao para compreender sua demanda, historia e objetivos do processo."
+        "title": "2. Sessão inicial",
+        "description": "Realizamos a primeira sessão de forma livre, com acolhimento e atenção para entender seus objetivos com o processo."
       },
       {
         "title": "3. Continuidade",
-        "description": "Definimos frequencia e modalidade (online e/ou presencial) de forma personalizada e etica."
+        "description": "Definimos frequência de forma personalizada e ética."
       }
     ]
   },
   "gallery": {
-    "title": "Espaco para imagens do site",
-    "description": "Esta galeria usa imagens arbitrarias por enquanto. Substitua pelos ensaios, consultorio ou imagens autorais da profissional quando quiser publicar.",
+    "title": "Temas que podemos trabalhar em terapia",
+    "description": "Cada processo é único, mas alguns temas costumam aparecer com frequência. A psicoterapia oferece um espaço seguro para compreender esses movimentos com profundidade e cuidado.",
     "items": [
       {
         "src": "assets/images/galeria-1.svg",
-        "alt": "Placeholder artistico para sessao de acolhimento.",
-        "caption": "Placeholder: acolhimento"
+        "alt": "Imagem",
+        "title": "Acolhimento e regulação emocional",
+        "description": "Em momentos de sobrecarga, ansiedade e autocobrança, construímos recursos para nomear emoções, reduzir o sofrimento e retomar equilíbrio no cotidiano.",
+        "details": "Também trabalhamos autoestima, culpa e autocuidado com respeito à sua história e ao seu ritmo."
       },
       {
         "src": "assets/images/galeria-2.svg",
-        "alt": "Placeholder artistico para tema de carreira.",
-        "caption": "Placeholder: carreira"
+        "alt": "Ilustração abstrata sobre carreira e decisões profissionais.",
+        "title": "Carreira, escolhas e posicionamento",
+        "description": "A terapia apoia decisões profissionais com mais clareza, fortalecendo confiança para lidar com inseguranças, mudanças e conflitos no trabalho.",
+        "details": "É um espaço para revisar prioridades, limites e a relação entre vida pessoal e desempenho."
       },
       {
         "src": "assets/images/galeria-3.svg",
-        "alt": "Placeholder artistico para relacionamentos.",
-        "caption": "Placeholder: relacionamentos"
+        "alt": "Ilustração abstrata sobre relacionamentos e vínculos.",
+        "title": "Relacionamentos e limites saudáveis",
+        "description": "Investigamos padrões afetivos, comunicação e dificuldade de colocar limites, promovendo vínculos mais respeitosos e conscientes.",
+        "details": "O processo ajuda a romper ciclos de desgaste emocional e construir relações com mais segurança."
       }
     ]
   },
   "finalCta": {
-    "title": "Cuidar de si pode ser o primeiro passo para florescer com mais consciencia, seguranca e leveza.",
+    "title": "Cuidar de si pode ser o primeiro passo para florescer com mais consciência, segurança e leveza.",
     "button": "Agendar atendimento"
   },
   "contact": {
@@ -130,28 +130,21 @@
       "whatsapp": "WhatsApp:",
       "instagram": "Instagram:",
       "email": "E-mail:",
-      "crp": "CRP:",
-      "city": "Cidade:"
+      "crp": "CRP:"
     },
     "values": {
       "whatsapp": "+55 (55) 96250-0616",
-      "instagram": "@mariaantonia.psicologia",
-      "email": "contato@mariaantonia.com.br",
-      "crp": "CRP 00/00000",
-      "city": "Cidade/UF"
+      "instagram": "@psi_mariantonia",
+      "email": "psimariantonia@gmail.com",
+      "crp": "07/38492"
     }
   },
-  "ethics": {
-    "title": "Compromisso etico",
-    "paragraph1": "Este site possui carater informativo e institucional. Nao faz promessas de cura, resultados garantidos ou exposicao de casos clinicos.",
-    "paragraph2": "Antes da publicacao final, revise o conteudo com a profissional responsavel e valide os dados no conselho regional."
-  },
   "footer": {
-    "copyright": "Maria Antonia Psicologia. Todos os direitos reservados."
+    "copyright": "Maria Antônia Psicologia. Todos os direitos reservados."
   },
   "links": {
     "whatsapp": "https://wa.me/+555596250616",
-    "instagram": "https://instagram.com/mariaantonia.psicologia",
-    "email": "mailto:contato@mariaantonia.com.br"
+    "instagram": "https://instagram.com/psi_mariantonia",
+    "email": "mailto:psimariantonia@gmail.com"
   }
 }

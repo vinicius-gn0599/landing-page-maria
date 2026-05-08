@@ -7,7 +7,7 @@ Landing page institucional baseada no briefing `maria-antonia-psicologia-briefin
 - `index.html`: pagina unica com as secoes institucionais.
 - `assets/css/styles.css`: identidade visual, responsividade e componentes.
 - `assets/js/main.js`: menu mobile, ano dinamico e carregamento de conteudo via JSON.
-- `assets/images/`: placeholders de imagem para hero e galeria.
+- `assets/images/`: ilustracoes SVG usadas no hero e nos cards de temas.
 - `content/site-content.json`: textos, links e metadados editaveis do site.
 - `.github/workflows/`: esteira CI/CD com GitHub Actions.
 
@@ -83,7 +83,6 @@ python3 -m http.server 8080
 
 ## Checklist antes de publicar
 
-1. Substituir placeholders da galeria por imagens reais.
-2. Atualizar CRP, cidade, WhatsApp, Instagram e e-mail.
-3. Validar textos finais com a profissional responsavel.
-4. Revisar conformidade etica com orientacoes do CFP/CRP.
+1. Atualizar CRP, cidade, WhatsApp, Instagram e e-mail.
+2. Validar textos finais com a profissional responsavel.
+3. Revisar conformidade etica com orientacoes do CFP/CRP.
